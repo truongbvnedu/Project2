@@ -1,0 +1,171 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Màu sắc cho tên thương hiệu */
+.title {
+    color: #ff69b4;
+    font-weight: bold;
+}
+
+/* Màu sắc cho liên kết trong menu */
+.navbar-nav .nav-link {
+    color: #ff69b4;
+    font-weight: bold;
+    padding: 10px 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    transform: scale(1.10);
+    color: #38383a;
+}
+
+/* Body Styles */
+body {
+    background-color: #f9f9f9;
+    color: #6c757d;
+}
+
+/* Header Styles */
+.navbar {
+    background-color: #ffe4e1;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Account Creation Form Section */
+.account-creation-section {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #ffe4e1;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.account-creation-section h2 {
+    color: #d6336c;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.account-creation-form {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px; /* Khoảng cách rộng hơn giữa phần tải ảnh và phần nhập liệu */
+}
+
+.image-upload {
+    flex: 1;
+    text-align: center;
+}
+
+/* Image upload box with more padding */
+.image-4x3 {
+    width: 140px;
+    padding-top: 105px; /* 4x3 ratio */
+    position: relative;
+    overflow: hidden;
+    border: 2px dashed #d6336c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d6336c;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.image-4x3 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.form-fields {
+    flex: 3;
+}
+
+.form-fields label {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.form-fields input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+}
+
+/* Button with more spacing */
+.account-creation-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff69b4;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.account-creation-btn:hover {
+    background-color: #d6336c;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffe4e1;
+    color: #6c757d;
+    padding: 15px 0;
+}
+
+footer a {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff69b4;
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 991.98px) {
+    .navbar-toggler {
+        display: block;
+    }
+    
+    .navbar-collapse {
+        background-color: #ffe4e1;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 12px 24px;
+        text-align: center;
+    }
+
+    .account-creation-section {
+        padding: 30px;
+    }
+}
