@@ -5,9 +5,13 @@ document.getElementById('profileImage').addEventListener('change', function(even
         reader.onload = function(e) {
             const img = document.createElement('img');
             img.src = e.target.result;
+            img.style.width = '140px'; // Đặt chiều rộng ảnh
+            img.style.height = '187px'; // Đặt chiều cao ảnh theo tỉ lệ 3:4
+            img.style.objectFit = 'cover'; // Giữ tỉ lệ ảnh mà không bị méo
+            
             const uploadArea = document.querySelector('.upload-area');
-            uploadArea.innerHTML = '';
-            uploadArea.appendChild(img);
+            uploadArea.innerHTML = ''; // Xóa nội dung cũ trong khung
+            uploadArea.appendChild(img); // Thêm ảnh vào khung
         };
         reader.readAsDataURL(file);
     }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nursery PreSchool - Đặt Lại Mật Khẩu</title>
+    <title>NURSERY PRRSCHOOL - Đặt Lại Mật Khẩu</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/ResetPassword.css') }}">
 </head>
@@ -33,7 +33,7 @@
     <main class="reset-password-section">
         <div class="logo">
             <img src="{{ asset('img/Login.png') }}" alt="Nursery PreSchool">
-            <h1>Nursery PreSchool</h1>
+            <h1>NURSERY PRRSCHOOL</h1>
         </div>
         <form class="reset-password-form">
             <label for="phone">Số điện thoại</label>

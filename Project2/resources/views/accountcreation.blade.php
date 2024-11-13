@@ -12,7 +12,7 @@
     <header class="py-3 shadow-sm" style="background-color: #ffe4e1;">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="title">Nursery PreSchool</div>
+                <div class="title">NURSERY PRRSCHOOL</div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,11 +36,15 @@
             <!-- Phần tải lên ảnh bên trái -->
             <div class="image-upload">
                 <label for="profileImage">
-                    <div class="upload-area image-4x3">
-                        <span>Thêm ảnh 4x3</span>
+                    <div class="upload-area">
+                        <span>Thêm ảnh 3x4</span>
                         <input type="file" id="profileImage" accept="image/*" style="display: none;">
                     </div>
                 </label>
+                <div class="upload-buttons">
+                    <button type="button" class="confirm-btn">Xác nhận</button>
+                    <button type="button" class="cancel-btn">Hủy</button>
+                </div>
             </div>
             
             <!-- Các trường nhập liệu bên phải -->
