@@ -41,6 +41,8 @@
             
             <label for="otp">Mã xác nhận</label>
             <input type="text" id="otp" placeholder="Nhập mã xác nhận">
+             
+            <button type="submit" id="send-code">gui ma</button>
             
             <label for="new-password">Mật khẩu mới</label>
             <input type="password" id="new-password" placeholder="Nhập mật khẩu mới">
